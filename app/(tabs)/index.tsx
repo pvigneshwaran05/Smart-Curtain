@@ -29,6 +29,8 @@ const ThingSpeakTest = () => {
       <Text>Test ThingSpeak Data Sending</Text>
       <Button title="Send Test Data" onPress={sendDataToThingSpeak} />
       <Text>{message}</Text>
+
+      
     </View>
   );
 };
